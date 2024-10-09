@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+
+}
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+   display: flex;
+   justify-content: center;
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid rgba(0, 0, 0, 0.684);
+    transition: all 1s ease-in-out 0.25s;
+}
+.container img:hover{
+    width: 25%;
+}
